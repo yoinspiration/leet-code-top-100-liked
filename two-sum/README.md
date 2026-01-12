@@ -6,7 +6,7 @@
 
 题目鼓励找出时间复杂度更好的算法。本文档提供了两种解法，其中哈希表解法的时间复杂度为 O(n)，满足进阶要求。
 
-## 解法一：暴力枚举 ([BruteForce.cpp](BruteForce.cpp))
+## 解法一：暴力枚举 [BruteForce.cpp](BruteForce.cpp)
 
 ### 算法思路
 
@@ -25,7 +25,7 @@
 
 虽然时间复杂度较高，但思路直接，代码简单。
 
-## 解法二：哈希表 ([HashTable.cpp](HashTable.cpp))
+## 解法二：哈希表 [HashTable.cpp](HashTable.cpp)
 
 ### 算法思路
 
