@@ -9,3 +9,5 @@ LeetCode 热题 100
   - [哈希表](two-sum/HashTable.cpp) O(n)
 - [Group Anagrams](group-anagrams/README.md) - 字母异位词分组
   - [哈希表](group-anagrams/HashTable.cpp) O(n * k log k)
+- [Longest Consecutive Sequence](longest-consecutive-sequence/README.md) - 最长连续序列
+  - [哈希集合](longest-consecutive-sequence/HashSet.cpp) O(n)
