@@ -23,5 +23,8 @@ LeetCode 热题 100
   - [暴力枚举](container-with-most-water/BruteForce.cpp) O(n²)
   - [双指针](container-with-most-water/TwoPointers.cpp) O(n)
 - [3Sum](3sum/README.md) - 三数之和
-  - [暴力枚举](3-sum/BruteForce.cpp) O(n³)
-  - [排序+双指针](3-sum/TwoPointers.cpp) O(n²)
+  - [暴力枚举](3sum/BruteForce.cpp) O(n³)
+  - [排序+双指针](3sum/TwoPointers.cpp) O(n²)
+- [Trapping Rain Water](trapping-rain-water/README.md) - 接雨水
+  - [双指针](trapping-rain-water/TwoPointers.cpp) O(n)
+  - [动态规划](trapping-rain-water/DynamicProgramming.cpp) O(n)
