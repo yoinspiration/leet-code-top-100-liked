@@ -19,3 +19,6 @@ LeetCode 热题 100
 - [Move Zeroes](move-zeroes/README.md) - 移动零
   - [暴力枚举](move-zeroes/BruteForce.cpp) O(n²)
   - [双指针](move-zeroes/TwoPointers.cpp) O(n)
+- [Container With Most Water](container-with-most-water/README.md) - 盛最多水的容器
+  - [暴力枚举](container-with-most-water/BruteForce.cpp) O(n²)
+  - [双指针](container-with-most-water/TwoPointers.cpp) O(n)
