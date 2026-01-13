@@ -13,6 +13,9 @@ LeetCode 热题 100
   - [哈希表](group-anagrams/HashTable.cpp) O(n \* k log k)
 - [Longest Consecutive Sequence](longest-consecutive-sequence/README.md) - 最长连续序列
   - [哈希集合](longest-consecutive-sequence/HashSet.cpp) O(n)
+- [Subarray Sum Equals K](subarray-sum-equals-k/README.md) - 和为 K 的子数组
+  - [暴力枚举](subarray-sum-equals-k/BruteForce.cpp) O(n²)
+  - [前缀和+哈希表](subarray-sum-equals-k/PrefixSum.cpp) O(n)
 
 ### 双指针
 
