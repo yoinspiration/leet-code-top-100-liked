@@ -1,3 +1,10 @@
+#include <algorithm>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
@@ -23,7 +30,7 @@ public:
     vector<vector<string>> result;
     for (auto &pair : anagramMap)
     {
-      result.push_back(std::move(pair.second));
+      result.push_back(move(pair.second));
     }
 
     return result;
