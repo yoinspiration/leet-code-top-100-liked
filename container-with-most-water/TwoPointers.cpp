@@ -1,9 +1,13 @@
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
   /**
    * @brief 找到能够盛最多水的容器
-   * 
+   *
    * @param height 数组，height[i] 表示第 i 条线的高度
    * @return int 能够盛水的最大面积
    */

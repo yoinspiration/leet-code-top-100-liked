@@ -1,9 +1,14 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
   /**
    * @brief 找到字符串中所有字母异位词的起始位置
-   * 
+   *
    * @param s 主字符串
    * @param p 模式字符串
    * @return vector<int> 所有字母异位词的起始索引
@@ -13,14 +18,14 @@ public:
     vector<int> result;
     int sLen = s.length();
     int pLen = p.length();
-    
+
     if (sLen < pLen)
     {
       return result;
     }
 
     // 使用数组记录字符频率（假设都是小写字母）
-    vector<int> pCount(26, 0); // 模式字符串的字符频率
+    vector<int> pCount(26, 0);      // 模式字符串的字符频率
     vector<int> windowCount(26, 0); // 滑动窗口的字符频率
 
     // 初始化：统计模式字符串和第一个窗口的字符频率

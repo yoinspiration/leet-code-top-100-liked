@@ -1,9 +1,14 @@
+#include <deque>
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
   /**
    * @brief 找到每个滑动窗口中的最大值
-   * 
+   *
    * @param nums 输入的整数数组
    * @param k 滑动窗口的大小
    * @return vector<int> 每个滑动窗口的最大值

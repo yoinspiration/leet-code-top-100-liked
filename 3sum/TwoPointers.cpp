@@ -1,9 +1,14 @@
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
   /**
    * @brief 找到所有不重复的三元组，使得三个数之和为 0
-   * 
+   *
    * @param nums 输入的整数数组
    * @return vector<vector<int>> 所有满足条件的三元组
    */
@@ -11,7 +16,7 @@ public:
   {
     vector<vector<int>> result;
     int n = nums.size();
-    
+
     // 先对数组进行排序
     sort(nums.begin(), nums.end());
 
@@ -32,12 +37,12 @@ public:
       while (left < right)
       {
         int sum = nums[left] + nums[right];
-        
+
         if (sum == target)
         {
           // 找到一组解
           result.push_back({nums[i], nums[left], nums[right]});
-          
+
           // 跳过重复的 left
           while (left < right && nums[left] == nums[left + 1])
           {
@@ -48,7 +53,7 @@ public:
           {
             right--;
           }
-          
+
           left++;
           right--;
         }

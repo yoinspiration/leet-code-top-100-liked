@@ -1,9 +1,13 @@
+#include <vector>
+
+using namespace std;
+
 class Solution
 {
 public:
   /**
    * @brief 将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序
-   * 
+   *
    * @param nums 输入的整数数组
    */
   void moveZeroes(vector<int> &nums)
