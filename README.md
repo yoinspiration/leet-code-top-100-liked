@@ -42,3 +42,5 @@ LeetCode 热题 100
 - [Sliding Window Maximum](sliding-window-maximum/README.md) - 滑动窗口最大值
   - [暴力枚举](sliding-window-maximum/BruteForce.cpp) O(n * k)
   - [单调队列](sliding-window-maximum/MonotonicQueue.cpp) O(n)
+ - [Minimum Window Substring](minimum-window-substring/README.md) - 最小覆盖子串
+   - [滑动窗口](minimum-window-substring/SlidingWindow.cpp) O(|s| + |t|)
