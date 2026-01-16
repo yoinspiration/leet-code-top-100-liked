@@ -44,3 +44,20 @@ LeetCode 热题 100
   - [单调队列](sliding-window-maximum/MonotonicQueue.cpp) O(n)
  - [Minimum Window Substring](minimum-window-substring/README.md) - 最小覆盖子串
    - [滑动窗口](minimum-window-substring/SlidingWindow.cpp) O(|s| + |t|)
+
+### 动态规划
+
+- [Maximum Subarray](maximum-subarray/README.md) - 最大子数组和
+  - [暴力枚举](maximum-subarray/BruteForce.cpp) O(n²)
+  - [动态规划](maximum-subarray/DynamicProgramming.cpp) O(n)
+
+### 排序
+
+- [Merge Intervals](merge-intervals/README.md) - 合并区间
+  - [排序](merge-intervals/Sorting.cpp) O(n log n)
+
+### 数组
+
+- [Rotate Array](rotate-array/README.md) - 轮转数组
+  - [使用额外数组](rotate-array/ExtraArray.cpp) O(n)
+  - [三次反转](rotate-array/ThreeReversals.cpp) O(n)

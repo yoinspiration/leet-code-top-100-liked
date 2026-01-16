@@ -38,44 +38,47 @@ public:
     int minLen = INT_MAX; // 最小窗口长度
     int start = 0;        // 最小窗口的起始位置
 
+    // 滑动窗口主循环：right 不断向右扩展
     while (right < (int)s.size())
     {
+      // 步骤1：扩展右边界，将 s[right] 加入窗口
       char c = s[right];
-      window[(unsigned char)c]++;
+      window[(unsigned char)c]++; // 当前窗口中字符 c 的数量 +1
 
-      // 如果这个字符是 t 中需要的，并且当前窗口中这个字符的数量
-      // 刚好达到 need 的要求，则 "满足的种类数" +1
+      // 步骤2：检查这个字符是否让某个"种类"刚好满足要求
+      // 例如：need['A'] = 1，如果 window['A'] 从 0 变成 1，说明 A 刚好满足要求了
+      // 注意：如果 window['A'] 从 1 变成 2，虽然也满足，但不会重复计数 formed
       if (need[(unsigned char)c] > 0 && window[(unsigned char)c] == need[(unsigned char)c])
       {
-        formed++;
+        formed++; // 又有一个字符种类刚好满足要求了
       }
 
-      // 当窗口已经覆盖了 t（即所有需要的字符都满足数量要求）时，
-      // 尝试收缩左边界，缩小窗口，找最小的那个
+      // 步骤3：当窗口已经覆盖了 t（formed == required）时，
+      // 尝试收缩左边界，尽量缩小窗口，找最小的覆盖子串
       while (formed == required && left <= right)
       {
-        // 更新最小窗口
+        // 更新最小窗口（每次窗口满足条件时都尝试更新）
         if (right - left + 1 < minLen)
         {
-          minLen = right - left + 1;
-          start = left;
+          minLen = right - left + 1; // 记录更小的窗口长度
+          start = left;               // 记录窗口的起始位置
         }
 
-        // 收缩窗口左边界
+        // 收缩窗口左边界：移除 s[left]
         char d = s[left];
-        window[(unsigned char)d]--;
+        window[(unsigned char)d]--; // 窗口中字符 d 的数量 -1
 
-        // 如果 d 是 t 中需要的字符，并且现在窗口中 d 的数量
-        // 已经少于需要的数量，那么当前窗口就不再满足条件了
+        // 检查移除 d 后，是否导致某个字符种类不再满足要求
+        // 例如：need['A'] = 1，如果 window['A'] 从 1 变成 0，说明 A 不满足了
         if (need[(unsigned char)d] > 0 && window[(unsigned char)d] < need[(unsigned char)d])
         {
-          formed--;
+          formed--; // 有一个字符种类不再满足要求了，退出收缩循环
         }
 
-        left++;
+        left++; // 左边界右移
       }
 
-      // 继续扩展右边界
+      // 步骤4：继续扩展右边界
       right++;
     }
 
