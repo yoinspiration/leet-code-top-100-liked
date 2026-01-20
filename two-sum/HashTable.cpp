@@ -15,22 +15,22 @@ public:
    */
   vector<int> twoSum(vector<int> &nums, int target)
   {
-    unordered_map<int, int> map; // 存储元素值到索引的映射
+    unordered_map<int, int> valueToIndex; // 存储元素值到索引的映射
 
     for (int i = 0; i < nums.size(); i++)
     {
       int complement = target - nums[i];
 
-      // 如果 complement 已经在 map 中，说明找到了
-      if (map.find(complement) != map.end())
+      // 如果 complement 已经在 valueToIndex 中，说明找到了
+      if (valueToIndex.contains(complement))
       {
-        return {map[complement], i};
+        return {valueToIndex[complement], i};
       }
 
-      // 将当前元素及其索引存入 map
-      map[nums[i]] = i;
+      // 将当前元素及其索引存入 valueToIndex
+      valueToIndex[nums[i]] = i;
     }
 
-    return {};
+    return {}; // 理论上不会执行到这里（题目保证有解）
   }
 };
