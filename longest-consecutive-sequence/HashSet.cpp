@@ -28,13 +28,13 @@ public:
     {
       // 只有当 num-1 不存在时，才从 num 开始计算连续序列
       // 这样可以避免重复计算，每个连续序列只从最小值开始计算一次
-      if (numSet.find(num - 1) == numSet.end())
+      if (!numSet.contains(num - 1))
       {
         int currentNum = num;
         int currentLength = 1;
 
         // 向右扩展，查找连续的数字
-        while (numSet.find(currentNum + 1) != numSet.end())
+        while (numSet.contains(currentNum + 1))
         {
           currentNum++;
           currentLength++;
