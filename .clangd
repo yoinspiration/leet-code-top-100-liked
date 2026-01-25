@@ -1,0 +1,17 @@
+# clangd 配置：指定 MSYS2 UCRT64 的标准库头文件路径
+# 抑制 libstdc++ 与 Clang 解析时的 __int128 兼容性误报
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -isystem
+    - C:/msys64/ucrt64/include/c++/15.2.0
+    - -isystem
+    - C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32
+    - -isystem
+    - C:/msys64/ucrt64/include
+  Remove: []
+
+Diagnostics:
+  Suppress: 
+    - static_assert_requirement_failed
+    - constexpr_var_requires_const_init
