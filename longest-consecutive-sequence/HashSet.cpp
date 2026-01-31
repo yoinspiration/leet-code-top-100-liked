@@ -13,7 +13,7 @@ public:
    * @param nums 输入的整数数组
    * @return int 最长连续序列的长度
    */
-  int longestConsecutive(vector<int> &nums)
+  int longestConsecutive(const vector<int> &nums)
   {
     if (nums.empty())
     {

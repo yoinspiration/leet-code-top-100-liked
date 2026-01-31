@@ -11,7 +11,7 @@ public:
    * @param height 数组，height[i] 表示第 i 条线的高度
    * @return int 能够盛水的最大面积
    */
-  int maxArea(vector<int> &height)
+  int maxArea(const vector<int> &height)
   {
     int left = 0;
     int right = height.size() - 1;

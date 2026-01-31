@@ -13,7 +13,7 @@ public:
    * @param target 目标值
    * @return vector<int> 包含两个索引的向量，如果未找到则返回空向量
    */
-  vector<int> twoSum(vector<int> &nums, int target)
+  vector<int> twoSum(const vector<int> &nums, int target)
   {
     unordered_map<int, int> valueToIndex; // 存储元素值到索引的映射
 

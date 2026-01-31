@@ -14,7 +14,7 @@ public:
    * @param strs 输入的字符串数组
    * @return vector<vector<string>> 分组后的字符串数组
    */
-  vector<vector<string>> groupAnagrams(vector<string> &strs)
+  vector<vector<string>> groupAnagrams(const vector<string> &strs)
   {
     unordered_map<string, vector<string>> anagramMap;
 
