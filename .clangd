@@ -1,7 +1,8 @@
-# clangd 配置：指定 MSYS2 UCRT64 的标准库头文件路径
-# 抑制 libstdc++ 与 Clang 解析时的 __int128 兼容性误报
+# clangd 配置：使用 MSYS2 UCRT64 的 GCC 工具链
 CompileFlags:
   Add:
+    - --target=x86_64-w64-mingw32
+    - --gcc-toolchain=C:/msys64/ucrt64
     - -std=c++20
     - -isystem
     - C:/msys64/ucrt64/include/c++/15.2.0
