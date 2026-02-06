@@ -24,7 +24,7 @@ public:
     unordered_set<int> numSet(nums.begin(), nums.end());
     int maxLength = 0;
 
-    for (int num : numSet)
+    for (const int num : numSet)
     {
       // 只有当 num-1 不存在时，才从 num 开始计算连续序列
       // 这样可以避免重复计算，每个连续序列只从最小值开始计算一次

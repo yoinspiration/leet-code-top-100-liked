@@ -11,7 +11,7 @@ public:
    * @param height 数组，height[i] 表示第 i 个位置的高度
    * @return int 能够接到的雨水总量
    */
-  int trap(vector<int> &height)
+  int trap(const vector<int> &height)
   {
     if (height.empty())
     {

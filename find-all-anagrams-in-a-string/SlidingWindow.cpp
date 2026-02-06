@@ -13,7 +13,7 @@ public:
    * @param p 模式字符串
    * @return vector<int> 所有字母异位词的起始索引
    */
-  vector<int> findAnagrams(string s, string p)
+  vector<int> findAnagrams(const string &s, const string &p)
   {
     vector<int> result;
     int sLen = s.length();

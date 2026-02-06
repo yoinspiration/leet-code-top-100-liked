@@ -12,7 +12,7 @@ public:
    * @param s 输入的字符串
    * @return int 最长子串的长度
    */
-  int lengthOfLongestSubstring(string s)
+  int lengthOfLongestSubstring(const string &s)
   {
     unordered_map<char, int> charIndex; // 存储字符及其最新出现的位置
     int maxLength = 0;
@@ -23,7 +23,7 @@ public:
       char currentChar = s[right];
 
       // 如果当前字符在窗口内已经存在（且位置 >= left），更新左边界
-      if (charIndex.find(currentChar) != charIndex.end() && charIndex[currentChar] >= left)
+      if (charIndex.contains(currentChar) && charIndex[currentChar] >= left)
       {
         left = charIndex[currentChar] + 1;
       }
