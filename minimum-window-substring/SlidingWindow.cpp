@@ -1,4 +1,5 @@
 #include <string>
+
 using namespace std;
 
 class Solution
@@ -33,13 +34,13 @@ public:
     }
 
     int formed = 0; // 当前窗口中，满足 need 要求的字符种类数
-    int left = 0, right = 0;
+    size_t left = 0, right = 0;
 
-    int minLen = INT_MAX; // 最小窗口长度
-    int start = 0;        // 最小窗口的起始位置
+    size_t minLen = s.size() + 1; // 最小窗口长度，初始化为不可能的值
+    size_t start = 0;         // 最小窗口的起始位置
 
     // 滑动窗口主循环：right 不断向右扩展
-    while (right < (int)s.size())
+    while (right < s.size())
     {
       // 步骤1：扩展右边界，将 s[right] 加入窗口
       char c = s[right];
@@ -82,7 +83,7 @@ public:
       right++;
     }
 
-    return minLen == INT_MAX ? "" : s.substr(start, minLen);
+    return minLen > s.size() ? "" : s.substr(start, minLen);
   }
 };
 

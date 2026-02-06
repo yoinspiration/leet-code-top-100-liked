@@ -13,7 +13,7 @@ public:
    * @param k 滑动窗口的大小
    * @return vector<int> 每个滑动窗口的最大值
    */
-  vector<int> maxSlidingWindow(vector<int> &nums, int k)
+  vector<int> maxSlidingWindow(const vector<int> &nums, int k)
   {
     vector<int> result;
     deque<int> dq; // 双端队列，存储索引，保证队列中的元素按值从大到小排列
