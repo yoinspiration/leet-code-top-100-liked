@@ -31,6 +31,14 @@ LeetCode 热题 100
 - [Trapping Rain Water](trapping-rain-water/README.md) - 接雨水
   - [双指针](trapping-rain-water/TwoPointers.cpp) O(n)
   - [动态规划](trapping-rain-water/DynamicProgramming.cpp) O(n)
+- [Intersection of Two Linked Lists](intersection-of-two-linked-lists/README.md) - 相交链表
+  - [双指针对齐长度](intersection-of-two-linked-lists/TwoPointers.cpp) O(m + n)
+- [Reverse Linked List](reverse-linked-list/README.md) - 反转链表
+  - [迭代反转](reverse-linked-list/Iterative.cpp) O(n)
+ - [Palindrome Linked List](palindrome-linked-list/README.md) - 回文链表
+   - [快慢指针+反转后半段](palindrome-linked-list/TwoPointers.cpp) O(n)
+ - [Linked List Cycle](linked-list-cycle/README.md) - 环形链表
+   - [快慢指针](linked-list-cycle/Floyd.cpp) O(n)
 
 ### 滑动窗口
 
@@ -58,6 +66,18 @@ LeetCode 热题 100
 
 ### 数组
 
+- [First Missing Positive](first-missing-positive/README.md) - 缺失的第一个正数
+  - [原地哈希](first-missing-positive/InPlaceHash.cpp) O(n)
+- [Product of Array Except Self](product-of-array-except-self/README.md) - 除自身以外数组的乘积
+  - [前缀积+后缀积](product-of-array-except-self/PrefixProduct.cpp) O(n)
 - [Rotate Array](rotate-array/README.md) - 轮转数组
   - [使用额外数组](rotate-array/ExtraArray.cpp) O(n)
   - [三次反转](rotate-array/ThreeReversals.cpp) O(n)
+- [Set Matrix Zeroes](set-matrix-zeroes/README.md) - 矩阵置零
+  - [原地标记](set-matrix-zeroes/InPlace.cpp) O(m × n)
+- [Spiral Matrix](spiral-matrix/README.md) - 螺旋矩阵
+  - [模拟法](spiral-matrix/Simulation.cpp) O(m × n)
+- [Rotate Image](rotate-image/README.md) - 旋转图像
+  - [转置+翻转](rotate-image/TransposeAndReverse.cpp) O(n²)
+- [Search a 2D Matrix II](search-a-2d-matrix-ii/README.md) - 搜索二维矩阵 II
+  - [从角落搜索](search-a-2d-matrix-ii/SearchFromCorner.cpp) O(m + n)

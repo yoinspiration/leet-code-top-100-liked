@@ -19,9 +19,9 @@ public:
    * @param nums 输入的整数数组
    * @return int 最大子数组和
    */
-  int maxSubArray(vector<int> &nums)
+  int maxSubArray(const vector<int> &nums)
   {
-    int n = nums.size();
+    const int n = nums.size();
     int maxSum = nums[0];     // 全局最大和，记录所有位置中最大的 currentSum
     int currentSum = nums[0]; // 以当前位置结尾的最大子数组和
 

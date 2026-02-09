@@ -40,7 +40,7 @@ public:
     {
       // 获取结果中最后一个区间和当前区间
       vector<int> &last = result.back();
-      vector<int> &current = intervals[i];
+      const vector<int> &current = intervals[i];
 
       // 如果当前区间的左端点 <= 最后一个区间的右端点，说明重叠
       // 例如：[1,3] 和 [2,6] 重叠，因为 2 <= 3
