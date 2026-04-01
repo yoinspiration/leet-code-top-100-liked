@@ -39,6 +39,8 @@ LeetCode 热题 100
    - [快慢指针+反转后半段](problems/palindrome-linked-list/TwoPointers.cpp) O(n)
  - [Linked List Cycle](problems/linked-list-cycle/README.md) - 环形链表
    - [快慢指针](problems/linked-list-cycle/Floyd.cpp) O(n)
+- [Linked List Cycle II](problems/linked-list-cycle-ii/README.md) - 环形链表 II
+  - [Floyd 判圈 + 入环点定位](problems/linked-list-cycle-ii/Floyd.cpp) O(n)
 
 ### 滑动窗口
 
