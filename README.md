@@ -41,6 +41,10 @@ LeetCode 热题 100
   - [哑结点+逐位进位](problems/add-two-numbers/Iterative.cpp) O(max(m, n))
 - [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list/README.md) - 删除链表的倒数第 N 个结点
   - [哑结点+快慢指针](problems/remove-nth-node-from-end-of-list/TwoPointers.cpp) O(L)
+- [Swap Nodes in Pairs](problems/swap-nodes-in-pairs/README.md) - 两两交换链表中的节点
+  - [哑结点+指针重连](problems/swap-nodes-in-pairs/Iterative.cpp) O(n)
+- [Reverse Nodes in k-Group](problems/reverse-nodes-in-k-group/README.md) - K 个一组翻转链表
+  - [哑结点+分组反转](problems/reverse-nodes-in-k-group/Iterative.cpp) O(n)
  - [Palindrome Linked List](problems/palindrome-linked-list/README.md) - 回文链表
    - [快慢指针+反转后半段](problems/palindrome-linked-list/TwoPointers.cpp) O(n)
  - [Linked List Cycle](problems/linked-list-cycle/README.md) - 环形链表
