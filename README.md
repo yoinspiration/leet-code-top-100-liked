@@ -35,6 +35,8 @@ LeetCode 热题 100
   - [双指针对齐长度](problems/intersection-of-two-linked-lists/TwoPointers.cpp) O(m + n)
 - [Reverse Linked List](problems/reverse-linked-list/README.md) - 反转链表
   - [迭代反转](problems/reverse-linked-list/Iterative.cpp) O(n)
+- [Merge Two Sorted Lists](problems/merge-two-sorted-lists/README.md) - 合并两个有序链表
+  - [哑结点+迭代](problems/merge-two-sorted-lists/Iterative.cpp) O(m + n)
  - [Palindrome Linked List](problems/palindrome-linked-list/README.md) - 回文链表
    - [快慢指针+反转后半段](problems/palindrome-linked-list/TwoPointers.cpp) O(n)
  - [Linked List Cycle](problems/linked-list-cycle/README.md) - 环形链表
