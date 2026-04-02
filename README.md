@@ -37,6 +37,10 @@ LeetCode 热题 100
   - [迭代反转](problems/reverse-linked-list/Iterative.cpp) O(n)
 - [Merge Two Sorted Lists](problems/merge-two-sorted-lists/README.md) - 合并两个有序链表
   - [哑结点+迭代](problems/merge-two-sorted-lists/Iterative.cpp) O(m + n)
+- [Add Two Numbers](problems/add-two-numbers/README.md) - 两数相加
+  - [哑结点+逐位进位](problems/add-two-numbers/Iterative.cpp) O(max(m, n))
+- [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list/README.md) - 删除链表的倒数第 N 个结点
+  - [哑结点+快慢指针](problems/remove-nth-node-from-end-of-list/TwoPointers.cpp) O(L)
  - [Palindrome Linked List](problems/palindrome-linked-list/README.md) - 回文链表
    - [快慢指针+反转后半段](problems/palindrome-linked-list/TwoPointers.cpp) O(n)
  - [Linked List Cycle](problems/linked-list-cycle/README.md) - 环形链表
