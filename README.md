@@ -16,6 +16,8 @@ LeetCode 热题 100
 - [Subarray Sum Equals K](problems/subarray-sum-equals-k/README.md) - 和为 K 的子数组
   - [暴力枚举](problems/subarray-sum-equals-k/BruteForce.cpp) O(n²)
   - [前缀和+哈希表](problems/subarray-sum-equals-k/PrefixSum.cpp) O(n)
+- [Copy List with Random Pointer](problems/copy-list-with-random-pointer/README.md) - 随机链表的复制
+  - [哈希表映射](problems/copy-list-with-random-pointer/HashMap.cpp) O(n)
 
 ### 双指针
 
@@ -45,6 +47,8 @@ LeetCode 热题 100
   - [哑结点+指针重连](problems/swap-nodes-in-pairs/Iterative.cpp) O(n)
 - [Reverse Nodes in k-Group](problems/reverse-nodes-in-k-group/README.md) - K 个一组翻转链表
   - [哑结点+分组反转](problems/reverse-nodes-in-k-group/Iterative.cpp) O(n)
+- [Sort List](problems/sort-list/README.md) - 排序链表
+  - [归并排序（自顶向下）](problems/sort-list/MergeSort.cpp) O(n log n)
  - [Palindrome Linked List](problems/palindrome-linked-list/README.md) - 回文链表
    - [快慢指针+反转后半段](problems/palindrome-linked-list/TwoPointers.cpp) O(n)
  - [Linked List Cycle](problems/linked-list-cycle/README.md) - 环形链表
