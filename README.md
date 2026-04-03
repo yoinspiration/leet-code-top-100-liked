@@ -18,6 +18,8 @@ LeetCode 热题 100
   - [前缀和+哈希表](problems/subarray-sum-equals-k/PrefixSum.cpp) O(n)
 - [Copy List with Random Pointer](problems/copy-list-with-random-pointer/README.md) - 随机链表的复制
   - [哈希表映射](problems/copy-list-with-random-pointer/HashMap.cpp) O(n)
+- [LRU Cache](problems/lru-cache/README.md) - LRU 缓存
+  - [哈希表+双向链表](problems/lru-cache/HashMapAndDoublyLinkedList.cpp) O(1) / 操作
 
 ### 双指针
 
@@ -39,6 +41,8 @@ LeetCode 热题 100
   - [迭代反转](problems/reverse-linked-list/Iterative.cpp) O(n)
 - [Merge Two Sorted Lists](problems/merge-two-sorted-lists/README.md) - 合并两个有序链表
   - [哑结点+迭代](problems/merge-two-sorted-lists/Iterative.cpp) O(m + n)
+- [Merge k Sorted Lists](problems/merge-k-sorted-lists/README.md) - 合并 K 个升序链表
+  - [最小堆（优先队列）](problems/merge-k-sorted-lists/PriorityQueue.cpp) O(N log k)
 - [Add Two Numbers](problems/add-two-numbers/README.md) - 两数相加
   - [哑结点+逐位进位](problems/add-two-numbers/Iterative.cpp) O(max(m, n))
 - [Remove Nth Node From End of List](problems/remove-nth-node-from-end-of-list/README.md) - 删除链表的倒数第 N 个结点
@@ -55,6 +59,18 @@ LeetCode 热题 100
    - [快慢指针](problems/linked-list-cycle/Floyd.cpp) O(n)
 - [Linked List Cycle II](problems/linked-list-cycle-ii/README.md) - 环形链表 II
   - [Floyd 判圈 + 入环点定位](problems/linked-list-cycle-ii/Floyd.cpp) O(n)
+
+### 二叉树
+
+- [Binary Tree Inorder Traversal](problems/binary-tree-inorder-traversal/README.md) - 二叉树的中序遍历
+  - [递归](problems/binary-tree-inorder-traversal/Recursive.cpp) O(n)
+  - [迭代+栈](problems/binary-tree-inorder-traversal/Iterative.cpp) O(n)
+- [Maximum Depth of Binary Tree](problems/maximum-depth-of-binary-tree/README.md) - 二叉树的最大深度
+  - [递归](problems/maximum-depth-of-binary-tree/Recursive.cpp) O(n)
+  - [层序 BFS](problems/maximum-depth-of-binary-tree/BFS.cpp) O(n)
+- [Invert Binary Tree](problems/invert-binary-tree/README.md) - 翻转二叉树
+  - [递归](problems/invert-binary-tree/Recursive.cpp) O(n)
+  - [层序 BFS](problems/invert-binary-tree/BFS.cpp) O(n)
 
 ### 滑动窗口
 
