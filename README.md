@@ -71,6 +71,9 @@ LeetCode 热题 100
 - [Invert Binary Tree](problems/invert-binary-tree/README.md) - 翻转二叉树
   - [递归](problems/invert-binary-tree/Recursive.cpp) O(n)
   - [层序 BFS](problems/invert-binary-tree/BFS.cpp) O(n)
+- [Symmetric Tree](problems/symmetric-tree/README.md) - 对称二叉树
+  - [递归镜像](problems/symmetric-tree/Recursive.cpp) O(n)
+  - [迭代+队列](problems/symmetric-tree/Iterative.cpp) O(n)
 
 ### 滑动窗口
 
