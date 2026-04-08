@@ -78,6 +78,8 @@ LeetCode 热题 100
   - [迭代+队列](problems/symmetric-tree/Iterative.cpp) O(n)
 - [Diameter of Binary Tree](problems/diameter-of-binary-tree/README.md) - 二叉树的直径
   - [后序 DFS](problems/diameter-of-binary-tree/PostOrderDFS.cpp) O(n)
+- [Convert Sorted Array to Binary Search Tree](problems/convert-sorted-array-to-binary-search-tree/README.md) - 将有序数组转换为二叉搜索树
+  - [分治（中位数为根）](problems/convert-sorted-array-to-binary-search-tree/DivideAndConquer.cpp) O(n)
 
 ### 滑动窗口
 
