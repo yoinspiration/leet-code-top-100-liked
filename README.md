@@ -80,6 +80,9 @@ LeetCode 热题 100
   - [后序 DFS](problems/diameter-of-binary-tree/PostOrderDFS.cpp) O(n)
 - [Convert Sorted Array to Binary Search Tree](problems/convert-sorted-array-to-binary-search-tree/README.md) - 将有序数组转换为二叉搜索树
   - [分治（中位数为根）](problems/convert-sorted-array-to-binary-search-tree/DivideAndConquer.cpp) O(n)
+- [Validate Binary Search Tree](problems/validate-binary-search-tree/README.md) - 验证二叉搜索树
+  - [递归+上下界](problems/validate-binary-search-tree/RecursiveBounds.cpp) O(n)
+  - [中序递增](problems/validate-binary-search-tree/Inorder.cpp) O(n)
 
 ### 滑动窗口
 
