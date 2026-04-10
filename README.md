@@ -83,6 +83,12 @@ LeetCode 热题 100
 - [Validate Binary Search Tree](problems/validate-binary-search-tree/README.md) - 验证二叉搜索树
   - [递归+上下界](problems/validate-binary-search-tree/RecursiveBounds.cpp) O(n)
   - [中序递增](problems/validate-binary-search-tree/Inorder.cpp) O(n)
+- [Kth Smallest Element in a BST](problems/kth-smallest-element-in-a-bst/README.md) - 二叉搜索树中第 K 小的元素
+  - [递归中序](problems/kth-smallest-element-in-a-bst/InorderRecursive.cpp) O(h + k)
+  - [迭代中序（栈）](problems/kth-smallest-element-in-a-bst/InorderIterative.cpp) O(h + k)
+- [Binary Tree Right Side View](problems/binary-tree-right-side-view/README.md) - 二叉树的右视图
+  - [层序 BFS](problems/binary-tree-right-side-view/BFS.cpp) O(n)
+  - [右优先 DFS](problems/binary-tree-right-side-view/DFS.cpp) O(n)
 
 ### 滑动窗口
 
