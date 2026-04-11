@@ -80,6 +80,8 @@ LeetCode 热题 100
   - [后序 DFS](problems/diameter-of-binary-tree/PostOrderDFS.cpp) O(n)
 - [Convert Sorted Array to Binary Search Tree](problems/convert-sorted-array-to-binary-search-tree/README.md) - 将有序数组转换为二叉搜索树
   - [分治（中位数为根）](problems/convert-sorted-array-to-binary-search-tree/DivideAndConquer.cpp) O(n)
+- [Construct Binary Tree from Preorder and Inorder Traversal](problems/construct-binary-tree-from-preorder-and-inorder-traversal/README.md) - 从前序与中序遍历序列构造二叉树
+  - [递归 + 中序下标哈希](problems/construct-binary-tree-from-preorder-and-inorder-traversal/Recursive.cpp) O(n)
 - [Validate Binary Search Tree](problems/validate-binary-search-tree/README.md) - 验证二叉搜索树
   - [递归+上下界](problems/validate-binary-search-tree/RecursiveBounds.cpp) O(n)
   - [中序递增](problems/validate-binary-search-tree/Inorder.cpp) O(n)
@@ -89,6 +91,11 @@ LeetCode 热题 100
 - [Binary Tree Right Side View](problems/binary-tree-right-side-view/README.md) - 二叉树的右视图
   - [层序 BFS](problems/binary-tree-right-side-view/BFS.cpp) O(n)
   - [右优先 DFS](problems/binary-tree-right-side-view/DFS.cpp) O(n)
+- [Flatten Binary Tree to Linked List](problems/flatten-binary-tree-to-linked-list/README.md) - 二叉树展开为链表
+  - [递归](problems/flatten-binary-tree-to-linked-list/Recursive.cpp) O(n)
+  - [迭代 O(1) 额外空间](problems/flatten-binary-tree-to-linked-list/Iterative.cpp) O(n)
+- [Path Sum III](problems/path-sum-iii/README.md) - 路径总和 III
+  - [DFS + 前缀和 + 哈希表](problems/path-sum-iii/PrefixSum.cpp) O(n)
 
 ### 滑动窗口
 
