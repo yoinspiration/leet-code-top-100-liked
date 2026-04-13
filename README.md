@@ -107,6 +107,13 @@ LeetCode 热题 100
   - [DFS 染色](problems/number-of-islands/DFS.cpp) O(m×n)
 - [Rotting Oranges](problems/rotting-oranges/README.md) - 腐烂的橘子
   - [多源 BFS](problems/rotting-oranges/BFS.cpp) O(m×n)
+- [Course Schedule](problems/course-schedule/README.md) - 课程表
+  - [拓扑排序 BFS（Kahn）](problems/course-schedule/TopoSortBFS.cpp) O(V+E)
+
+### 字典树
+
+- [Implement Trie (Prefix Tree)](problems/implement-trie-prefix-tree/README.md) - 实现 Trie（前缀树）
+  - [数组子指针](problems/implement-trie-prefix-tree/Trie.cpp) O(|word|) 每次操作
 
 ### 滑动窗口
 
@@ -120,6 +127,11 @@ LeetCode 热题 100
   - [单调队列](problems/sliding-window-maximum/MonotonicQueue.cpp) O(n)
  - [Minimum Window Substring](problems/minimum-window-substring/README.md) - 最小覆盖子串
    - [滑动窗口](problems/minimum-window-substring/SlidingWindow.cpp) O(|s| + |t|)
+
+### 回溯
+
+- [Permutations](problems/permutations/README.md) - 全排列
+  - [回溯](problems/permutations/Backtracking.cpp) O(n×n!)
 
 ### 动态规划
 
