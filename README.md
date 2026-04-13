@@ -96,6 +96,17 @@ LeetCode 热题 100
   - [迭代 O(1) 额外空间](problems/flatten-binary-tree-to-linked-list/Iterative.cpp) O(n)
 - [Path Sum III](problems/path-sum-iii/README.md) - 路径总和 III
   - [DFS + 前缀和 + 哈希表](problems/path-sum-iii/PrefixSum.cpp) O(n)
+- [Lowest Common Ancestor of a Binary Tree](problems/lowest-common-ancestor-of-a-binary-tree/README.md) - 二叉树的最近公共祖先
+  - [后序递归](problems/lowest-common-ancestor-of-a-binary-tree/Recursive.cpp) O(n)
+- [Binary Tree Maximum Path Sum](problems/binary-tree-maximum-path-sum/README.md) - 二叉树中的最大路径和
+  - [后序 DFS](problems/binary-tree-maximum-path-sum/PostOrderDFS.cpp) O(n)
+
+### 图
+
+- [Number of Islands](problems/number-of-islands/README.md) - 岛屿数量
+  - [DFS 染色](problems/number-of-islands/DFS.cpp) O(m×n)
+- [Rotting Oranges](problems/rotting-oranges/README.md) - 腐烂的橘子
+  - [多源 BFS](problems/rotting-oranges/BFS.cpp) O(m×n)
 
 ### 滑动窗口
 
