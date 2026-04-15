@@ -132,6 +132,14 @@ LeetCode 热题 100
 
 - [Permutations](problems/permutations/README.md) - 全排列
   - [回溯](problems/permutations/Backtracking.cpp) O(n×n!)
+- [Subsets](problems/subsets/README.md) - 子集
+  - [回溯](problems/subsets/Backtracking.cpp) O(n×2ⁿ)
+- [Letter Combinations of a Phone Number](problems/letter-combinations-of-a-phone-number/README.md) - 电话号码的字母组合
+  - [回溯](problems/letter-combinations-of-a-phone-number/Backtracking.cpp) O(4ⁿ×n)
+- [Combination Sum](problems/combination-sum/README.md) - 组合总和
+  - [回溯+剪枝](problems/combination-sum/Backtracking.cpp) O(n×target/min)
+- [Generate Parentheses](problems/generate-parentheses/README.md) - 括号生成
+  - [回溯](problems/generate-parentheses/Backtracking.cpp) O(4ⁿ/√n)
 
 ### 动态规划
 
