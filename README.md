@@ -140,6 +140,10 @@ LeetCode 热题 100
   - [回溯+剪枝](problems/combination-sum/Backtracking.cpp) O(n×target/min)
 - [Generate Parentheses](problems/generate-parentheses/README.md) - 括号生成
   - [回溯](problems/generate-parentheses/Backtracking.cpp) O(4ⁿ/√n)
+- [Palindrome Partitioning](problems/palindrome-partitioning/README.md) - 分割回文串
+  - [回溯](problems/palindrome-partitioning/Backtracking.cpp) O(n × 2^n)
+- [Word Search](problems/word-search/README.md) - 单词搜索
+  - [回溯+DFS](problems/word-search/Backtracking.cpp) O(m×n×3^L)
 
 ### 动态规划
 
