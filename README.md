@@ -144,6 +144,8 @@ LeetCode 热题 100
   - [回溯](problems/palindrome-partitioning/Backtracking.cpp) O(n × 2^n)
 - [Word Search](problems/word-search/README.md) - 单词搜索
   - [回溯+DFS](problems/word-search/Backtracking.cpp) O(m×n×3^L)
+- [N-Queens](problems/n-queens/README.md) - N 皇后
+  - [回溯+列/对角线剪枝](problems/n-queens/Backtracking.cpp) O(n!)
 
 ### 动态规划
 
