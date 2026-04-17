@@ -147,6 +147,11 @@ LeetCode 热题 100
 - [N-Queens](problems/n-queens/README.md) - N 皇后
   - [回溯+列/对角线剪枝](problems/n-queens/Backtracking.cpp) O(n!)
 
+### 二分查找
+
+- [Search Insert Position](problems/search-insert-position/README.md) - 搜索插入位置
+  - [二分查找](problems/search-insert-position/BinarySearch.cpp) O(log n)
+
 ### 动态规划
 
 - [Maximum Subarray](problems/maximum-subarray/README.md) - 最大子数组和
