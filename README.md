@@ -151,6 +151,8 @@ LeetCode 热题 100
 
 - [Search Insert Position](problems/search-insert-position/README.md) - 搜索插入位置
   - [二分查找](problems/search-insert-position/BinarySearch.cpp) O(log n)
+- [Search a 2D Matrix](problems/search-a-2d-matrix/README.md) - 搜索二维矩阵
+  - [二分查找（展平矩阵）](problems/search-a-2d-matrix/BinarySearch.cpp) O(log(m×n))
 
 ### 动态规划
 
