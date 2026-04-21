@@ -153,6 +153,12 @@ LeetCode 热题 100
   - [二分查找](problems/search-insert-position/BinarySearch.cpp) O(log n)
 - [Search a 2D Matrix](problems/search-a-2d-matrix/README.md) - 搜索二维矩阵
   - [二分查找（展平矩阵）](problems/search-a-2d-matrix/BinarySearch.cpp) O(log(m×n))
+- [Find First and Last Position of Element in Sorted Array](problems/find-first-and-last-position-of-element-in-sorted-array/README.md) - 在排序数组中查找元素的第一个和最后一个位置
+  - [二分查找（两次 lowerBound）](problems/find-first-and-last-position-of-element-in-sorted-array/BinarySearch.cpp) O(log n)
+- [Search in Rotated Sorted Array](problems/search-in-rotated-sorted-array/README.md) - 搜索旋转排序数组
+  - [二分查找（判断有序半段）](problems/search-in-rotated-sorted-array/BinarySearch.cpp) O(log n)
+- [Find Minimum in Rotated Sorted Array](problems/find-minimum-in-rotated-sorted-array/README.md) - 寻找旋转排序数组中的最小值
+  - [二分查找（与右边界比较）](problems/find-minimum-in-rotated-sorted-array/BinarySearch.cpp) O(log n)
 
 ### 动态规划
 
