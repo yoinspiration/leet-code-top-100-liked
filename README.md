@@ -159,6 +159,18 @@ LeetCode 热题 100
   - [二分查找（判断有序半段）](problems/search-in-rotated-sorted-array/BinarySearch.cpp) O(log n)
 - [Find Minimum in Rotated Sorted Array](problems/find-minimum-in-rotated-sorted-array/README.md) - 寻找旋转排序数组中的最小值
   - [二分查找（与右边界比较）](problems/find-minimum-in-rotated-sorted-array/BinarySearch.cpp) O(log n)
+- [Median of Two Sorted Arrays](problems/median-of-two-sorted-arrays/README.md) - 寻找两个正序数组的中位数
+  - [暴力合并排序](problems/median-of-two-sorted-arrays/BruteForce.cpp) O((m+n) log(m+n))
+  - [二分查找（切割点）](problems/median-of-two-sorted-arrays/BinarySearch.cpp) O(log(min(m, n)))
+
+### 栈
+
+- [Valid Parentheses](problems/valid-parentheses/README.md) - 有效的括号
+  - [栈](problems/valid-parentheses/Stack.cpp) O(n)
+- [Min Stack](problems/min-stack/README.md) - 最小栈
+  - [辅助最小栈](problems/min-stack/MinStack.cpp) O(1) / 操作
+- [Decode String](problems/decode-string/README.md) - 字符串解码
+  - [栈](problems/decode-string/Stack.cpp) O(n×k)
 
 ### 动态规划
 
