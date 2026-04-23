@@ -171,6 +171,19 @@ LeetCode 热题 100
   - [辅助最小栈](problems/min-stack/MinStack.cpp) O(1) / 操作
 - [Decode String](problems/decode-string/README.md) - 字符串解码
   - [栈](problems/decode-string/Stack.cpp) O(n×k)
+- [Daily Temperatures](problems/daily-temperatures/README.md) - 每日温度
+  - [单调栈](problems/daily-temperatures/Stack.cpp) O(n)
+- [Largest Rectangle in Histogram](problems/largest-rectangle-in-histogram/README.md) - 柱状图中最大的矩形
+  - [单调栈](problems/largest-rectangle-in-histogram/Stack.cpp) O(n)
+
+### 堆
+
+- [Kth Largest Element in an Array](problems/kth-largest-element-in-an-array/README.md) - 数组中的第 K 个最大元素
+  - [最小堆](problems/kth-largest-element-in-an-array/MinHeap.cpp) O(n log k)
+  - [快速选择](problems/kth-largest-element-in-an-array/QuickSelect.cpp) O(n) 平均
+- [Top K Frequent Elements](problems/top-k-frequent-elements/README.md) - 前 K 个高频元素
+  - [最小堆](problems/top-k-frequent-elements/MinHeap.cpp) O(n log k)
+  - [桶排序](problems/top-k-frequent-elements/BucketSort.cpp) O(n)
 
 ### 动态规划
 
