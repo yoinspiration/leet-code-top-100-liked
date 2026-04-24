@@ -184,12 +184,24 @@ LeetCode 热题 100
 - [Top K Frequent Elements](problems/top-k-frequent-elements/README.md) - 前 K 个高频元素
   - [最小堆](problems/top-k-frequent-elements/MinHeap.cpp) O(n log k)
   - [桶排序](problems/top-k-frequent-elements/BucketSort.cpp) O(n)
+- [Find Median from Data Stream](problems/find-median-from-data-stream/README.md) - 数据流的中位数
+  - [双堆（大根堆+小根堆）](problems/find-median-from-data-stream/TwoHeaps.cpp) addNum O(log n) / findMedian O(1)
 
 ### 动态规划
 
+- [Climbing Stairs](problems/climbing-stairs/README.md) - 爬楼梯
+  - [动态规划](problems/climbing-stairs/DynamicProgramming.cpp) O(n)
 - [Maximum Subarray](problems/maximum-subarray/README.md) - 最大子数组和
   - [暴力枚举](problems/maximum-subarray/BruteForce.cpp) O(n²)
   - [动态规划](problems/maximum-subarray/DynamicProgramming.cpp) O(n)
+- [Best Time to Buy and Sell Stock](problems/best-time-to-buy-and-sell-stock/README.md) - 买卖股票的最佳时机
+  - [动态规划](problems/best-time-to-buy-and-sell-stock/DynamicProgramming.cpp) O(n)
+- [Jump Game](problems/jump-game/README.md) - 跳跃游戏
+  - [贪心](problems/jump-game/Greedy.cpp) O(n)
+- [Jump Game II](problems/jump-game-ii/README.md) - 跳跃游戏 II
+  - [贪心](problems/jump-game-ii/Greedy.cpp) O(n)
+- [Partition Labels](problems/partition-labels/README.md) - 划分字母区间
+  - [贪心](problems/partition-labels/Greedy.cpp) O(n)
 
 ### 排序
 
