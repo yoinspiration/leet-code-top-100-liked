@@ -191,6 +191,14 @@ LeetCode 热题 100
 
 - [Climbing Stairs](problems/climbing-stairs/README.md) - 爬楼梯
   - [动态规划](problems/climbing-stairs/DynamicProgramming.cpp) O(n)
+- [Pascal's Triangle](problems/pascals-triangle/README.md) - 杨辉三角
+  - [动态规划](problems/pascals-triangle/DynamicProgramming.cpp) O(numRows²)
+- [House Robber](problems/house-robber/README.md) - 打家劫舍
+  - [动态规划](problems/house-robber/DynamicProgramming.cpp) O(n)
+- [Perfect Squares](problems/perfect-squares/README.md) - 完全平方数
+  - [动态规划](problems/perfect-squares/DynamicProgramming.cpp) O(n√n)
+- [Coin Change](problems/coin-change/README.md) - 零钱兑换
+  - [动态规划](problems/coin-change/DynamicProgramming.cpp) O(amount×n)
 - [Maximum Subarray](problems/maximum-subarray/README.md) - 最大子数组和
   - [暴力枚举](problems/maximum-subarray/BruteForce.cpp) O(n²)
   - [动态规划](problems/maximum-subarray/DynamicProgramming.cpp) O(n)
